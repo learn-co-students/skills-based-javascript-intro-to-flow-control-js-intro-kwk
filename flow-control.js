@@ -14,9 +14,9 @@ function teenager(age) {
 
 
 function ageChecker(age) {
-  if (age > 12 && age < 20){
+  if (age > 13 && age < 19){
     console.log("You are a teenager!")
-  } else if (age < 12){
+  } else if (age <= 12){
     console.log("You are a kid")
   } else {
     return "You are a grownup"
